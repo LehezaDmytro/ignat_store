@@ -1,0 +1,28 @@
+.searchBar {
+  position: relative;
+}
+
+.searchIconBtn {
+  position: absolute;
+  top: 9px;
+  left: 9px;
+
+  padding: 0;
+
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.searchInput {
+  width: 282px;
+  height: 40px;
+  padding: 8px 16px 8px 40px;
+  border: none;
+  border-radius: 15px;
+  background: #e8e8e8;
+
+  &:focus-visible {
+    outline: none;
+  }
+}

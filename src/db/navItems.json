@@ -1,0 +1,22 @@
+[
+  {
+    "url": "#new-products",
+    "text": "новинки"
+  },
+  {
+    "url": "#mens",
+    "text": "чоловіки"
+  },
+  {
+    "url": "#ladies",
+    "text": "жінки"
+  },
+  {
+    "url": "#accessories",
+    "text": "аксесуари"
+  },
+  {
+    "url": "#promotions",
+    "text": "акції"
+  }
+]
