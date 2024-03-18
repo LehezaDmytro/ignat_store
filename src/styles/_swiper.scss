@@ -22,3 +22,61 @@
     border-radius: 15px;
   }
 }
+
+.swiperBox {
+  h3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 1.53;
+    color: var(--color-primary);
+    z-index: 16;
+  }
+
+  .swiper-wrapper {
+    padding-top: 71px;
+  }
+
+  .swiper-pagination-fraction {
+    top: 10px;
+    left: 1006px;
+
+    width: 33px;
+
+    color: var(--color-primary);
+  }
+
+  .swiper-button-prev,
+  .swiper-rtl .swiper-button-next {
+    left: 1078px;
+    right: 0;
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    top: 23px;
+    z-index: 17;
+  }
+
+  .swiper-button-prev:after,
+  .swiper-button-next:after {
+    font-family: Roboto;
+  }
+
+  .swiper-button-prev::after {
+    content: "";
+    width: 25px;
+    height: 7px;
+    background-image: url(../assets/icons/Arrow_prew.svg);
+  }
+
+  .swiper-button-next::after {
+    content: "";
+    width: 25px;
+    height: 7px;
+    background-image: url(../assets/icons/Arrow_next.svg);
+  }
+}

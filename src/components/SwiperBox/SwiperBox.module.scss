@@ -1,0 +1,41 @@
+.swiper {
+}
+
+.swiperSlideItem {
+  display: flex;
+  gap: 30px;
+  li {
+    img {
+      max-width: 370px;
+      margin-bottom: 15px;
+    }
+
+    h4 {
+      margin-bottom: 20px;
+
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 1;
+      color: var(--color-primary);
+    }
+
+    .type {
+      margin-bottom: 10px;
+      line-height: 1;
+      color: var(--color-secondary);
+    }
+
+    .features {
+      margin-bottom: 17px;
+      line-height: 1;
+      color: var(--color-secondary);
+    }
+
+    .price {
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 1;
+      color: #4aaa4e;
+    }
+  }
+}

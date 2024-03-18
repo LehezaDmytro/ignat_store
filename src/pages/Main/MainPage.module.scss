@@ -56,6 +56,7 @@
 
 .giftsImg {
   max-width: 570px;
+  height: 100%;
 }
 
 .promotions {
@@ -130,4 +131,8 @@
     border-radius: 15px;
     background-color: var(--color-secondary);
   }
+}
+
+.hottestProducts {
+  margin-bottom: 80px;
 }

@@ -1,8 +1,13 @@
+//Import cmponents
+import SwiperBox from "../../components/SwiperBox/SwiperBox";
+
+// Import images
 import sliderImg1 from "../../assets/images/HomePage/Slider Image1.jpg";
 import sliderImg2 from "../../assets/images/HomePage/Slider Image2.jpg";
 import sliderImg3 from "../../assets/images/HomePage/Slider Image3.jpg";
 import giftsImg from "../../assets/images/HomePage/gifts img.jpg";
 
+//Import styles
 import styles from "./MainPage.module.scss";
 
 // Import Swiper React components
@@ -14,21 +19,21 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 // import required modules
-import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper/modules";
+import { Navigation, Pagination } from "swiper/modules";
 
 const MainPage = () => {
   return (
     <>
+      {/* Hero */}
       <section className={styles.hero}>
         <Swiper
           cssMode={true}
           navigation={true}
+          loop={true}
           pagination={{
             clickable: true,
           }}
-          mousewheel={true}
-          keyboard={true}
-          modules={[Navigation, Pagination, Mousewheel, Keyboard]}
+          modules={[Navigation, Pagination]}
           className="heroSwiper"
         >
           <SwiperSlide>
@@ -48,6 +53,7 @@ const MainPage = () => {
           </SwiperSlide>
         </Swiper>
       </section>
+      {/* Gigts */}
       <section className={styles.gifts}>
         <div className="container">
           <div className={styles.giftsGroup}>
@@ -61,6 +67,13 @@ const MainPage = () => {
           <img className={styles.giftsImg} src={giftsImg} alt="gifts img" />
         </div>
       </section>
+      {/* Hottest Products */}
+      <section className={styles.hottestProducts}>
+        <div className="container">
+          <SwiperBox />
+        </div>
+      </section>
+      {/* Promotions */}
       <section className={styles.promotions}>
         <div className="container">
           <h2>Спіймай всі акції!</h2>
