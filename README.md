@@ -11,3 +11,7 @@
 ### `npm staht`
 
 Виконайте цю команду для запуску проекту.
+
+## GitHub Pages
+
+(https://lehezadmytro.github.io/ignat_store/)
